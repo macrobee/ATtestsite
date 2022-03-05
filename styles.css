@@ -1,0 +1,30 @@
+h1{margin: auto;
+    text-align: center;
+}
+form{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: beige;
+    border-radius: 30px;
+    padding:3% 0;
+}
+.group{
+    display:grid;
+    grid-template-columns: 30% 30%;
+    padding:1em 2em 0 2em;
+    width:80%;
+    margin:2% auto;
+}
+label{
+display:inline;
+}
+input{margin: auto;}
+
+@media (max-width: 500px) {
+    form{width:95%;}
+    .group{padding:1em;}
+    input{width:fit-content;
+    padding:1em;
+line-height:10px;}
+}
